@@ -1,0 +1,122 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+
+body{
+    margin-left: 140px;
+    margin-right: 140px;
+    font-family: Open Sans; 
+    font-size: 20px;
+    text-align: center;
+    color: #1A1A1A;
+}
+.greenLogo {
+    width: 160px;
+    height: 50px;
+    margin-left: 20px;
+    float: left;
+    padding-top: 5px;
+}
+
+nav {
+    height: 70px;
+    position: relative;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    width: 400px;
+    float: right;
+    padding-right: 20px;
+}
+  
+nav a {
+    text-decoration: none;
+    color: black;
+}
+.landing {
+    background-image: url(/images/landing.jpg);
+    color: #FFF;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding-top: 150px;
+    position: relative;
+}
+.landing h1 {
+    font-size: 3.4em;
+    font-weight: bold;
+}
+.landing p {
+    padding-left: 250px;
+    padding-right: 250px;
+    font-size: 1.2em;
+    font-weight: 200;
+}
+h2 {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    font-weight: bolder;
+}
+.whatsOn {
+    text-decoration-color: #00B172;
+}
+.options img {
+    width: 100px;
+    height: 80px;
+    margin-top: 30px;
+}
+.options {
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row; 
+    margin-bottom: 60px;
+}
+.options div {
+    margin: 30px 10px;
+    padding: 10PX ;
+    width: 280px;
+    height: 280px;
+    
+}
+.options h3 {
+    color: #00B172;
+    font-weight: bold;
+}
+.greenSection {
+    background-color: #00B172;
+    color: #FFF;
+    text-align: left;
+    padding: 60px;
+    height: 550px;
+    
+}
+.whiteLogo {
+    height: 100px;
+    position: relative;
+    left: 50%;
+    margin-left: -50px;
+    top: 50%;
+    margin-top: -50px;
+} 
+.app {
+    height: 500px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.greenSection p {
+    width: 300px;
+}
+.greenSection h2 {
+    margin-top: 0%;
+}
